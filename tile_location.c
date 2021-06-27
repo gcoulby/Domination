@@ -1,0 +1,1 @@
+enum TileOccupation {TopLeft, Top, TopRight, Left, Middle, Right, BottomLeft, Bottom, BottomRight, P1_H1, P1_H2, P1_H3, P1_H4, P1_H5, P2_H1, P2_H2, P2_H3, P2_H4, P2_H5};

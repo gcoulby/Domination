@@ -1,0 +1,98 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy Z80-like CPU), page 1.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+    .__.$$$.                                                    =  002710 L
+    .__.ABS.                                                    =  000000 G
+    .__.CPU.                                                    =  000000 L
+    .__.H$L.                                                    =  000000 L
+  0 _AI                                                            000E49 GR
+  1 _DominationMap                                                 000370 GR
+  1 _DominationStartScreen                                         0004EA GR
+  1 _DominationTiles                                               000000 GR
+  0 _INT16_MIN                                                     000003 GR
+    _LCDC_REG                                                      ****** GX
+    _SCX_REG                                                       ****** GX
+    _WX_REG                                                        ****** GX
+    _WY_REG                                                        ****** GX
+    ___memcpy                                                      ****** GX
+  0 ___str_0                                                       000FED R
+    __divuint                                                      ****** GX
+    __modsint                                                      ****** GX
+    __moduint                                                      ****** GX
+    _add_VBL                                                       ****** GX
+  1 _blankTile                                                     000666 GR
+  1 _board                                                         0006BE GR
+  1 _boardCursorPosition                                           0006D6 GR
+  1 _cardSelected                                                  00066D GR
+  0 _countCards                                                    000956 GR
+  1 _currentPlayer                                                 00066C GR
+    _disable_interrupts                                            ****** GX
+    _enable_interrupts                                             ****** GX
+  0 _flipAdjacentCardsIfEqualOrGreater                             000474 GR
+    _gbt_loop                                                      ****** GX
+    _gbt_play                                                      ****** GX
+    _gbt_update                                                    ****** GX
+  0 _getAIScore                                                    000C1C GR
+    _getRand                                                       ****** GX
+  0 _getScoreAsCharArray                                           000FCF GR
+  1 _handCursorPosition                                            0006D5 GR
+    _initialise                                                    ****** GX
+  0 _initialiseCursor                                              00019D GR
+  0 _initialiseTiles                                               000005 GR
+  0 _isEqualOrHigherThanAdjacentCard                               0003F9 GR
+  0 _isGameOver                                                    0009A6 GR
+    _joypad                                                        ****** GX
+  0 _main                                                          000FF0 GR
+  0 _moveBoardCursor                                               0002C4 GR
+  0 _moveHandCursor                                                00027A GR
+  0 _paintTile                                                     0006BA GR
+    _performantDelay                                               ****** GX
+  0 _placeCardOnBoard                                              000B56 GR
+  1 _player1Hand                                                   0006AA GR
+  1 _player1Wins                                                   0006D0 GR
+  1 _player2Hand                                                   0006B4 GR
+  1 _player2Wins                                                   0006D2 GR
+  0 _refreshDisplay                                                000266 GR
+  0 _resetBoardState                                               000BDF GR
+  0 _resetGame                                                     000A21 GR
+  0 _resetNotifications                                            0009E7 GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy Z80-like CPU), page 2.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+    _seedRandomStartScreen                                         ****** GX
+  1 _selectedCard                                                  0006D4 GR
+  0 _setScore                                                      0009CA GR
+    _set_bkg_data                                                  ****** GX
+    _set_bkg_tiles                                                 ****** GX
+    _set_interrupts                                                ****** GX
+    _set_sprite_data                                               ****** GX
+    _shadow_OAM                                                    ****** GX
+  0 _showCardCount                                                 000988 GR
+  0 _showCards                                                     000903 GR
+  0 _showCursors                                                   0003B3 GR
+  0 _showPlayerIndicator                                           0008B8 GR
+    _song_Data                                                     ****** GX
+    _sprintf                                                       ****** GX
+  0 _swapCursors                                                   000386 GR
+  1 _tiles                                                         00066E GR
+  1 _vblCount                                                      0006D7 GR
+  0 _vbl_isr_handle                                                000000 GR
+
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy Z80-like CPU), page 3.
+Hexadecimal [24-Bits]
+
+Area Table
+
+   0 _CODE                                      size   1237   flags    0
+   1 _DATA                                      size    6D8   flags    0
+   2 _DABS                                      size      0   flags    8
+   3 _HOME                                      size      0   flags    0
+   4 _GSINIT                                    size   202C   flags    0
+   5 _GSFINAL                                   size      0   flags    0
+   6 _CABS                                      size      0   flags    8
+

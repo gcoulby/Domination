@@ -1,0 +1,1 @@
+enum PlayArea { Hand, Board };
